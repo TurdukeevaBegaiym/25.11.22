@@ -1,3 +1,201 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px rgb(11, 11, 11);
+  background-color: white;
+  
+}
+.navbar nav {
+  margin: 15px;
+  margin-right: 0 auto;
+}
+header {
+  max-width: 987px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  
+ }
+img {
+  height: 10vh;
+  background-size: cover;
+
+}
+.logo {
+  display: flex;
+  margin-right: auto;
+  
+}
+
+
+
+
+ .navbar-1 {
+  box-shadow: 0px 5px 10px rgb(11, 11, 11);
+   background-color: white;
+   margin-top: 50px;
+
+ }
+ .navbar-1 nav {
+  margin-left: auto;
+  margin-right: auto;
+ }
+ nav ul {
+  display: flex;
+  list-style-type: none;
+ 
+ }
+ ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: blue;
+ }
+/* nav ul li:active {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 30px;
+} */
+
+nav {
+  display: flex;
+}
+.navbar-2 {
+  display: flex;
+  background-color: white;
+  box-shadow:0px 5px 10px rgb(11, 11, 11) ;
+  margin-top: 50px;
+}
+.navbar-2 ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 0 auto;
+ 
+} 
+.navbar-2 ul li {
+  margin: 10px;
+
+}
+.btn button {
+  color: blue;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 100;
+  border-radius: 5px;
+  border-color: blue;
+  margin-left:  auto;
+  padding:8px 8px;
+}
+.btn button:active {
+  background-color: blue;
+  color: white;
+  transition: all;
+}
+.navbar-2 img {
+  margin-right:auto;
+}
+
+.navbar-3 {
+  margin-top: 50px;
+  background-color: rgb(12, 7, 43);
+}
+.navbar-3 nav {
+  margin: 10px;
+  margin-right: auto;
+}
+.yellow {
+  background-color: yellow;
+}
+.btn1 {
+  margin: 10px;
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 20px ;
+}
+.btn1 .login {
+  background-color: rgb(12, 7, 43) ;
+  color: white;
+  border-color:white;
+}
+.one {
+  background-color:rgb(12, 7, 43) ;
+  color: gray;
+}
+.navbar-4 {
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+header {
+  max-width: 987px;
+  margin: 0 auto;
+  display: flex;
+
+}
+.sidebar {
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  flex: 1 1 50px;
+  background-color: aliceblue;
+  margin: 15px 15px;
+ }
+ .content {
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  flex: 1 1 450px;
+  background-color: aliceblue;
+  margin:  15px 15px;
+ }
+ .navbar-4 button{
+  flex: 1 1 55px;
+ }
+ .navbar-4 img {
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .container {
+  border:  1px solid gainsboro;
+  background-color:white;
+  display: flex;
+  height: 300px;
+  
+ }
+.search {
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-right: auto;
+}
+.search:active {
+  cursor: pointer;
+  border: 2px solid rgb(137, 137, 196);
+  transition: 10ms;
+  
+}
+.navbar-5 {
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid rgb(106, 104, 104);
+}
+.navbar-5 nav ul li a {
+  color: black;
+}
+.word  {
+  margin-left: auto;
+  display: flex;
+  
+
+}
+.navbar-5 .container {
+  border: 2px solid black;
+}
+.navbar-5 header {
+  border: 1px solid black;
+  flex: 100%;
+  
+}
